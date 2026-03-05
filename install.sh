@@ -133,7 +133,7 @@ install_slurm
 # install_aocc
 
 ## everything intel, maybe too much
-# install_intel $intelhpckit_url $intelhpckit_sha384 $intelhpckit_version ; apt install $intelhpckit_deb
+# install_intel $intelhpckit_url $intelhpckit_sha384 $intelhpckit_version ; apt install -y $intelhpckit_deb
 
 ## chose 1 of these 2 kits or both
 # install_intel $intelcppkit_url $intelcppkit_sha384 $intelcppkit_version # c cpp + mkl
