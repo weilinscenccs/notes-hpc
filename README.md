@@ -2,25 +2,25 @@ test on Ubuntu 24.04/22.04
 
 ## compilers, math libraries
 
-[-] gcc
-[-] gfortran
-[-] aocc 5.1.0
-[-] intel fortran essentials 2025.3.1.26
-  [-] intel ifx 
-  [-] intel mkl
-  [-] intel mpi
+- [x] gcc
+- [x] gfortran
+- [x] aocc 5.1.0
+- [x] intel fortran essentials 2025.3.1.26
+  - [x] intel ifx
+  - [x] intel mkl
+  - [x] intel mpi
 
 ## slurm queue
 
-[-] only on local machine
+- [x] only on local machine
 
 ## other tools
 
-[-] lmod
-[-] parallel
-[-] cmake
-[-] automake
-[-] autoconf
+- [x] lmod
+- [x] parallel
+- [x] cmake
+- [x] automake
+- [x] autoconf
 
 ## install
 
