@@ -130,7 +130,7 @@ apt update ; apt install -y build-essential automake autoconf libtool pkg-config
 install_slurm
 
 ## amd aocc compiler
-install_aocc
+# install_aocc
 
 ## everything intel, maybe too much
 # install_intel $intelhpckit_url $intelhpckit_sha384 $intelhpckit_version ; apt install $intelhpckit_deb

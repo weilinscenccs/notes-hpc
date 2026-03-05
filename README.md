@@ -6,7 +6,6 @@ default:
 
 - [x] gcc
 - [x] gfortran
-- [x] aocc 5.1.0
 - [x] intel fortran essentials 2025.3.1.26
   - [x] intel ifx
   - [x] intel mkl
@@ -14,6 +13,7 @@ default:
 
 optional: see in the end of file `install.sh`
 
+- [x] aocc 5.1.0
 - [x] intel one mkl
 - [x] intel cpp essentials
 - [x] intel oneapi hpc toolkit
