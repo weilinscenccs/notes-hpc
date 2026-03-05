@@ -138,7 +138,6 @@ install_aocc
 ## chose 1 of these 2 kits or both
 # install_intel $intelcppkit_url $intelcppkit_sha384 $intelcppkit_version # c cpp + mkl
 install_intel $intelftnkit_url $intelftnkit_sha384 $intelftnkit_version # fortran mkl mpi
-find /opt/intel -name "ifx"
 
 ## chose mkl + intelftn or mkl + intelcpp, or all of three
 # install_intel $intelmkl_url $intelmkl_sha384 $intelmkl_version
