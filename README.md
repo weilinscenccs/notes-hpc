@@ -2,6 +2,8 @@ test on Ubuntu 24.04/22.04
 
 ## compilers, math libraries
 
+default:
+
 - [x] gcc
 - [x] gfortran
 - [x] aocc 5.1.0
@@ -10,9 +12,27 @@ test on Ubuntu 24.04/22.04
   - [x] intel mkl
   - [x] intel mpi
 
+optional: see in the end of file `install.sh`
+
+- [x] intel one mkl
+- [x] intel cpp essentials
+- [x] intel oneapi hpc toolkit
+- [x] intel dpcpp compiler
+- [x] intel fortran compiler
+
+[Using MKL efficiently on AMD CPU may look here](https://documentation.sigma2.no/jobs/mkl.html#forcing-mkl-to-use-best-performing-routines)
+
 ## slurm queue
 
 - [x] only on local machine
+
+change the cpu config in `slurm.conf` as yours
+
+```
+NodeName=localhost CPUs=4 Sockets=1 CoresPerSocket=4 ThreadsPerCore=1 State=UNKNOWN
+```
+
+here only set to a single socket 4 core cpu
 
 ## other tools
 
